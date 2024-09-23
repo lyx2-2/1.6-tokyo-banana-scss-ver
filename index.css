@@ -177,6 +177,23 @@ video {
 }
 
 
+.photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* 强制视频宽度100% */
+  height: 100%;
+  /* 强制视频高度100% */
+  object-fit: cover;
+  /* 保持视频比例并裁剪，填满容器 */
+  object-position: center;
+  /* 确保视频在容器内居中裁剪 */
+  align-self: stretch;
+  opacity: 0.85;
+}
+
+
 
 /* 叠加的文字样式 */
 .overlay-text-header {
